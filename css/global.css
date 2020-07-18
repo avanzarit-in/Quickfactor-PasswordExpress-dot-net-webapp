@@ -1,0 +1,60 @@
+/* 	GLOBAL STYLES */
+	html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ol, ul, li, form, table, tr, th, td {
+		margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;
+	}
+	body {
+		font-family: Arial, Helvetica, sans-serif; 
+		font-size: 12px;
+		background-color: #E4E6EC; 
+		text-align: center;
+	}
+	p, span, ul, ol, strong, .fieldlabel {font-family: Arial, Helvetica, sans-serif}
+	p {margin: 12px 0}
+	a:link, a:visited {color: #6D7ABC}
+
+	textarea {margin-bottom: 12px}
+	input {color: #444}
+	.button {font-size: 10px; cursor:pointer; background: #EA924A; border: #FFF 1px outset; color: #FFF; height: 22px}
+	.cbox, .radio { border: none}
+
+	#container {border-bottom: 1px solid #FFF; text-align: left; width: 960px; margin: auto; background-color: #FFF}
+	#site_top {background: #FFF url('../images/gray_gradient_bg_top.jpg') repeat-x; padding-top: 34px; text-align:left}
+	#site_top #hdr_title {margin: 8px}
+	#site_top #hdr_title img {padding-right: 24px}
+	#site_top #hdr_title span {font-size: 18px; color: #7C7C7C;}
+	#site_top #hdr_subt {margin: 8px; font-size: 11px; font-weight: bold; color: #333}
+	#site_top #nav {
+		background: #006CB4 url('../images/blue_gradient_bg.jpg') repeat-x; 
+		margin: 36px 8px; overflow: hidden}
+	#site_top #nav div {
+		float: left; 
+		text-align: center; font-size: 13px; font-weight: bold;
+		width: 210px; margin-right: 1px; padding: 6px 8px; border-right: 1px solid #FFF;
+		background: #006CB4 url('../images/blue_gradient_bg.jpg') repeat-x; 		
+	}
+	#site_top #nav div a {text-decoration: none; color: #FFF;}
+	
+	#page_nav_btns {margin: 24px 0px 12px;}
+	#page_content {height: auto; padding: 12px 32px; text-align: center}
+
+	#footer {height: 52px; background: #EEE url('../images/gray_gradient_bg_btm.jpg') repeat-x}
+	#footer div {float: left; margin-top: 8px; margin-left: 10px; text-align: left; font-size: 11px; font-weight: bold;}
+	#footer div p a:link, a:visited {text-decoration: none; color: #006CB4}
+
+/* 	MODULAR BOXES */	
+	/* both columns should equal no more than 100%, when factoring in margins and padding */
+	.col-left	{float: left; width: 60%}
+	.col-right	{float: right; width: 30%}
+	.col-full	{width: 100%; text-align: left;}
+
+	.m_box {width: 100%; overflow: hidden; margin-bottom: 12px; background: #FFF; color: #000 }
+	.m_box_hdr {height: 30px; padding: 8px 8px 0px 8px; text-align: left; font-weight: bold; color: #FFF; font-size: 14px}
+	.m_box_bdy {height: auto; padding: 6px; text-align: left; font-size: 12px; background: #FFF}
+	.m_box.green {border: 1px solid #6A9727}
+	.m_box_hdr.green {background: #6A9727 url('../images/green_header_bg.jpg') repeat-x}
+	.m_box.orange {border: 1px solid #FF9F4D}
+	.m_box_hdr.orange {background: #FF9F4D url('../images/orange_header_bg.jpg') repeat-x}
+	/*.m_box_bdy.orange {background: #FFF;}*/
+	.m_box_bdy.orange h6 {font-weight: bold}
+	.m_box_bdy.orange p a {text-decoration: none; font-weight: bold; color: #663419}
+	

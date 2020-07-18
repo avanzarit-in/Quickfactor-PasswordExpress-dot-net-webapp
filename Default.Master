@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="PasswordExpressProfileWebApp.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/PWC_ids.css" rel="stylesheet" />
+    <link href="css/AccessOptions_styles.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body  style="background-color:white">
+    <!-- Begin Header -->
+    <div id="site_top">
+        <div id="hdr_title">
+			<div><img src="images/kp_logo_blue_horz.jpg"><span>Password Express</span></div>
+		</div>
+		<div id="hdr_subt"></div>
+	</div>
+<!-- End Header -->
+            <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    <!-- Begin Footer -->
+	<div id="footer">
+		<div>&nbsp;</div>
+		<div><img src="images/key_no_bg.png" /></div>
+		<div><p><a href="https://password.kp.org" alt="password.kp.org">Password.kp.org</a></p></div>
+	</div>
+<!-- End Footer -->
+</body>
+</html>
